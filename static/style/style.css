@@ -1,0 +1,83 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 20rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-nav a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 0 0 2rem;
+}
+
+.navbar-nav a:hover{
+  color: red;
+  transition: all 0.6s ease;
+}
+
+.logo p{
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+.exchange{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 10rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+form{
+  align-items: center;
+  text-align: center;
+}
+
+form h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 3px;
+}
+
+form p{
+  margin-top: 1rem;
+  padding-bottom: 1.1rem;
+}
+
+form p select{
+  height: 4vh;
+  width: 80%;
+  font-size: 1.2rem;
+}
+form p button{
+  height: 4vh;
+  width: 50%;
+  background-color: rgba(10, 211, 84, 0.486);
+  font-size: 1.2rem;
+}
+form p input{
+  height: 4vh;
+  width: 80%;
+  font-size: 1.1rem;
+}
+
+
+
